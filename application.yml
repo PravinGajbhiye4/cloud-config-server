@@ -12,10 +12,10 @@ eureka:
 microservice:
   order-service:
    endpoints:
-     enpooint:
+     endpoint:
        url: http://ORDER-SERVICE/order/bookOrder
 
   payment-service:
     endpoints:
-      enpooint:
+      endpoint:
         url: http://PAYMENT-SERVICE/payment/doPayment
